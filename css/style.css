@@ -1,1 +1,33 @@
-/* Denna fil skall innehålla din CSS kod */
+
+    
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(73, 73, 121, 0.568) ;
+    font-family: sans-serif
+}
+
+#navLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top:10vh;
+    background-color: rgba(73, 73, 121, 0.568);
+    align-items: center;
+    width: 20%;
+}
+
+#navLinks li {
+    list-style: none;
+}
