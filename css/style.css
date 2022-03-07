@@ -22,13 +22,43 @@ nav {
     position: absolute;
     right: 0px;
     height: 90vh;
-    top:10vh;
+    top: -90vh;
     background-color: rgba(73, 73, 121, 0.568);
     align-items: center;
     width: 20%;
+    transition: all 1s;
 }
 
 #navLinks li {
     list-style: none;
 }
 
+#navLinks a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgba(88, 88, 88, 0.705);
+    margin: 5px;
+    border-radius: 10%;
+    transition: all 0.3s;
+}
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate( -5px, -6px);
+}
