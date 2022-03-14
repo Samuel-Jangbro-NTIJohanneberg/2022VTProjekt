@@ -8,14 +8,17 @@
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     height: 10vh;
     background-color: rgba(73, 73, 121, 0.568) ;
     font-family: sans-serif
 }
-
-#navLinks {
+.burger {
+    margin-right: 50px;
+    cursor: pointer;
+}
+.navLinks {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -29,11 +32,11 @@ nav {
     transition: all 1s;
 }
 
-#navLinks li {
+.navLinks li {
     list-style: none;
 }
 
-#navLinks a {
+.navLinks a {
     color: white;
     text-decoration: none;
     letter-spacing: 3px;
@@ -61,4 +64,8 @@ nav {
 
 .toggle .line3 {
     transform: rotate(45deg) translate( -5px, -6px);
+
+}
+.navActive {
+    transform: translate(100vh);
 }
