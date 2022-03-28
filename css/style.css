@@ -102,12 +102,36 @@ footer {
     grid-area: ft;
 }
 #main {
-    display: flex;
-    justify-content: flex-end;
     grid-area: mn;
-    height: 10vh;
-    width: 100vh;
-    background-color: red;
+    border: solid 1px black; 
+    height: 100vh;
+
+
 
    
 }
+
+#mn-content{
+    display:flex;
+    border: solid 1px black; 
+    height: 100vh;
+    flex-direction: row;
+}
+
+#section1{
+    background-color: aquamarine;
+    height: 100%; 
+    width: 50%;
+    margin: 10vh;
+}
+
+#section2{
+    background-color: blueviolet;
+    height: 100%; 
+    width: 50%;
+   margin: 10vh;
+
+}
+
+
+
