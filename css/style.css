@@ -1,5 +1,18 @@
 
     
+
+
+
+.wrapper {
+
+    display: grid;
+    grid-template-areas: 
+    'hd hd hd'
+    'mn mn mn'
+    'ft ft ft'; 
+     grid-template-rows: 2em;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,11 +21,13 @@
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     height: 10vh;
     background-color: rgba(73, 73, 121, 0.568) ;
-    font-family: sans-serif
+    font-family: sans-serif;
+    align-items: center;
+
 }
 .burger {
     margin-right: 50px;
@@ -68,4 +83,31 @@ nav {
 }
 .navActive {
     transform: translateY(100vh);
+}
+#Header {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   grid-area: hd;
+   
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    width: 1200px;
+    height: 10vh;
+   
+}
+
+footer {
+    grid-area: ft;
+}
+#main {
+    display: flex;
+    justify-content: flex-end;
+    grid-area: mn;
+    height: 10vh;
+    width: 100vh;
+    background-color: red;
+
+   
 }
