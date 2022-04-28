@@ -123,7 +123,12 @@ footer {
     height: 100%; 
     width: 50%;
     margin: 10vh;
+    /* background-image: url(../img/4BA2D09A-C90E-43C8-9C29-CA9F00BF80F4.jpeg); */
+    /* background-size: 100%; */
+
+    
 }
+
 
 #section2{
     background-color: blueviolet;
@@ -132,6 +137,12 @@ footer {
    margin: 10vh;
 
 }
+
+img {
+    width: 100%;
+    height: 70%;
+}
+
 
 
 
